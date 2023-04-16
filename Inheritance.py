@@ -1,6 +1,7 @@
 '''Inheritance.py'''
 class Base:
 
+    '''init'''
     def __init__(self):
         self.value = "Base.value"
         self._value = "Base._value"
