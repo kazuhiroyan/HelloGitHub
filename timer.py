@@ -1,3 +1,5 @@
+'''timer'''
+
 import time
 
 class Timer:
