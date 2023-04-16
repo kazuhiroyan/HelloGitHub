@@ -1,3 +1,4 @@
+'''Inheritance.py'''
 class Base:
 
     def __init__(self):
