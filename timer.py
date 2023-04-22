@@ -3,6 +3,8 @@
 import time
 
 class Timer:
+    '''timer'''
+
     def __init__(self, func=time.perf_counter):
         self.elapsed = 0.0
         self._func = func
