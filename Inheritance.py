@@ -80,7 +80,7 @@ class SubSub(Sub):
         self.__method()  # サブクラスと名前衝突しても自分のを使う
 
 
-subsub = SubSub()
+subsub = SubSub() # subsub = SubSub()
 subsub.base()
 print()
 subsub.sub()
