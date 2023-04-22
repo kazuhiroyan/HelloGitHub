@@ -81,7 +81,7 @@ class SubSub(Sub):
 
 
 subsub = SubSub() # subsub = SubSub()
-subsub.base() # subsub.base()
+subsub.base() # subsub = SubSub()
 print()
 subsub.sub()
 print()
