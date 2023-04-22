@@ -17,6 +17,7 @@ class Base:
         print("Base.__method")
 
     def base(self):
+        '''base'''
         print('base():')
         print(self.value)
         print(self._value)
