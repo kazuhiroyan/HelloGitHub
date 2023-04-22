@@ -11,11 +11,13 @@ class Timer:
         self._start = None
 
     def start(self):
+        '''start'''
         if self._start is not None:
             raise RuntimeError('Already started')
         self._start = self._func()
     
     def stop(self):
+        '''stop'''
         if self._start is None:
             raise RuntimeError('Not started')
         end = self._func()
