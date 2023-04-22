@@ -17,7 +17,7 @@ class Timer:
         self._start = self._func()
     
     def stop(self):
-        '''stop'''
+        '''stop stop'''
         if self._start is None:
             raise RuntimeError('Not started')
         end = self._func()
