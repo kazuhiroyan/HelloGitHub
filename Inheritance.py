@@ -1,4 +1,4 @@
-'''Inheritance.py'''
+'''Inheritance.py module'''
 class Base:
 
     '''init'''
