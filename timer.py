@@ -25,7 +25,7 @@ class Timer:
         self._start = None
     
     def reset(self):
-        '''reset'''
+        '''reset reset'''
         self.elapsed = 0.0
     
     @property
