@@ -1,17 +1,23 @@
+'''timer'''
+
 import time
 
 class Timer:
+    '''timer'''
+
     def __init__(self, func=time.perf_counter):
         self.elapsed = 0.0
         self._func = func
         self._start = None
 
     def start(self):
+        '''start'''
         if self._start is not None:
             raise RuntimeError('Already started')
         self._start = self._func()
     
     def stop(self):
+        '''stop stop'''
         if self._start is None:
             raise RuntimeError('Not started')
         end = self._func()
@@ -19,6 +25,7 @@ class Timer:
         self._start = None
     
     def reset(self):
+        '''reset rename rename'''
         self.elapsed = 0.0
     
     @property

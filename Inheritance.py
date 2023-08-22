@@ -1,5 +1,7 @@
+'''Inheritance.py module'''
 class Base:
 
+    '''init'''
     def __init__(self):
         self.value = "Base.value"
         self._value = "Base._value"
@@ -15,6 +17,7 @@ class Base:
         print("Base.__method")
 
     def base(self):
+        '''base'''
         print('base():')
         print(self.value)
         print(self._value)
@@ -78,14 +81,14 @@ class SubSub(Sub):
         self.__method()  # サブクラスと名前衝突しても自分のを使う
 
 
-subsub = SubSub()
+subsub = SubSub() # subsub = SubSub()
 subsub.base()
 print()
 subsub.sub()
 print()
 subsub.subsub()
 
-# 
+# message
 subsub._Sub__method()
 subsub._SubSub__method()
 
